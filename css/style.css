@@ -120,7 +120,7 @@ section .content2 div div:first-child a{
 	color: #fff;
 	text-decoration: none;
 	display: inline-block;
-	border-bottom: 1px dotted #333;
+	border-bottom: 1px dotted #fff;
 }
 
 section .content2 div div:last-child{
@@ -130,3 +130,64 @@ section .content2 div div:last-child{
 }
 section .content2 div div:last-child img{}
 /* //section area*/
+
+/*footer area*/
+footer{
+	background-color: #eee;
+	border-top: 3px solid #fff;
+	padding:40px 0;
+}
+footer .pc-layout{}
+
+footer .pc-layout .footer-top{}
+footer .pc-layout .footer-top ul{
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 30px;
+}
+footer .pc-layout .footer-top ul:first-child{
+	margin-right: 70px;
+}
+footer .pc-layout .footer-top ul li{
+	margin:10px 0;
+}
+footer .pc-layout .footer-top ul .title-list{
+	font-weight: 600;
+	font-size: 18px;
+}
+footer .pc-layout .footer-top ul li a{
+	text-decoration: none;
+	color: #000;
+}
+
+footer .pc-layout .footer-bottom{}
+footer .pc-layout .footer-bottom p{}
+footer .pc-layout .footer-bottom p:first-child{
+	margin-top: 20px;
+}
+footer .pc-layout .footer-bottom p:first-child b{
+	border-left:1px solid #ddd;
+	padding-left: 15px;
+	cursor: pointer;
+}
+footer .pc-layout .footer-bottom ul{
+	margin:15px 0;
+}
+footer .pc-layout .footer-bottom ul li{
+	display: inline-block;
+	margin-right: 20px;
+	border-right: 1px solid #ddd;
+	padding-right: 15px;
+}
+footer .pc-layout .footer-bottom ul li:last-child{
+	border: none;
+}
+footer .pc-layout .footer-bottom ul li .title-list{}
+footer .pc-layout .footer-bottom ul li a{
+	text-decoration: none;
+	color: #000;
+}
+footer .pc-layout .footer-bottom p:last-child{
+	font-size: 12px;
+}
+/* //footer area*/
