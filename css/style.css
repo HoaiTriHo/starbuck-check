@@ -1,0 +1,132 @@
+*{
+	font-family: 'Lato', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+ul,li,ol{
+	list-style: none;
+}
+.pc-layout{
+	max-width: 1200px;
+	margin:0 auto;
+	overflow: hidden;
+}
+
+/*header*/
+.wrap{}
+.wrap header{
+	border-top: 10px solid #006341;
+}
+.wrap header .pc-layout{
+	padding-top: 10px;
+	position: relative;
+}
+.wrap header .pc-layout h1{
+	display: inline-block;
+	margin-right: 25px;
+}
+.wrap header .pc-layout h1 img{}
+
+.wrap header .pc-layout ul{
+	display: inline-block;
+}
+.wrap header .pc-layout ul li{
+	display: inline-block;
+	padding: 10px 15px;
+	
+}
+.wrap header .pc-layout ul li a{
+	color: #333;
+	text-decoration: none;
+	letter-spacing: 2px;
+}
+
+.wrap header .pc-layout ul li:hover{
+	background-color: #333;
+	color: #fff;
+}
+.wrap header .pc-layout ul li:hover a{
+	color: #fff;
+}
+.wrap header .pc-layout p{
+	position: absolute;
+	top:0;
+	right:0;
+	margin-top: 20px;
+}
+/*//header*/
+
+/*visual-img*/
+.visual-img img{
+	width: 100%;
+}
+/* //visual-img*/
+
+/*section area*/
+section{}
+section{}
+section article{padding:70px 0;}
+
+section .content1{
+	overflow: hidden;
+}
+section .content1 div div:first-child{
+	display: inline-block;
+	width: 50%;
+	float: left;
+}
+section .content1 div div:first-child img{}
+
+section .content1 div div:last-child{
+	display: inline-block;
+	width: 50%;
+	float: left;
+	padding-top: 100px;
+}
+section .content1 div div:last-child h2{}
+section .content1 div div:last-child p{
+	margin: 20px 0;
+	font-weight: 400;
+}
+section .content1 div div:last-child a{
+	font-weight: 600;
+	color: #333;
+	text-decoration: none;
+	display: inline-block;
+	border-bottom: 1px dotted #333;
+}
+
+
+section .content2{
+	overflow: hidden;
+	background-image: url('../images/peru-flat-white-background-content-stripe_tcm89-12314.jpg');
+}
+section .content2 div div:first-child{
+	display: inline-block;
+	width: 50%;
+	float: left;
+	padding-top: 100px;
+}
+section .content2 div div:first-child h2{
+	color: #fff;
+}
+section .content2 div div:first-child p{
+	margin: 20px 0;
+	font-weight: 400;
+	color: #fff;
+}
+section .content2 div div:first-child a{
+	font-weight: 600;
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	border-bottom: 1px dotted #333;
+}
+
+section .content2 div div:last-child{
+	display: inline-block;
+	width: 50%;
+	float: left;
+}
+section .content2 div div:last-child img{}
+/* //section area*/
